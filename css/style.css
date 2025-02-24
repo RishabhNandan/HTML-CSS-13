@@ -1,10 +1,8 @@
-/* Global Styles */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-      
+  }   
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -20,8 +18,6 @@
     width: 100%;
     position: relative;
   }
-      
-  /* Navbar */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,7 +26,6 @@
     color: #fffcfc;
     gap: 2rem;
   }
-      
   .logo {
     display: flex;
     align-items: center;
@@ -70,8 +65,6 @@
     text-decoration: none;
     font-weight: 600;
   }
-        
-  /* Hero Section */
   .hero {
     display: flex;
     justify-content: space-between;
@@ -120,8 +113,6 @@
     max-width: 90%;
     height: auto;
   }
-    
-  /* middle section */
   .middle-section {
     display: flex;
     justify-content: center;
@@ -162,8 +153,6 @@
     margin-bottom: 1.5rem;
     font-weight: 400;
   }
-      
-  /* Features Section */
   .features-heading {
     text-align: center;
     color: #000000;
@@ -254,10 +243,6 @@
     color: #555;
     font-weight: 550;
   }
-      
-  /* Responsive Design */
-      
-  /* Mobile Styles (max-width: 768px) */
   @media (max-width: 768px) {
     .nav-menu-icon{
       display: block;
@@ -305,8 +290,6 @@
       gap: 15px;
     }
   }
-      
-  /* Tablet Styles (768px - 1024px) */
   @media (min-width: 768px) and (max-width: 1024px) {
     .hero-content h1 {
       font-size: 2.4rem;
@@ -348,8 +331,6 @@
       gap: 20px;
     }
   }
-      
-  /* Laptop Styles (1024px - 1440px) */
   @media (min-width: 1024px) and (max-width: 1440px) {
     .hero-content h1 {
       font-size: 3rem;
@@ -390,7 +371,6 @@
       gap: 25px;
     }
   }
-  /* large screen and above than 1440px   */
   @media (min-width: 1440px) {
     .hero-content h1 {
       font-size: 3.4rem;
